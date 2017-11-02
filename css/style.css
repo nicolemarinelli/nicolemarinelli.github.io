@@ -7,6 +7,13 @@ body {
   background: #101010;
 }
 
+a {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
 header .jumbotron {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('../img/la.jpg') no-repeat center center;
   background-size: cover;
@@ -18,11 +25,11 @@ header h1 {
   font-family: 'Amsterdam';
 }
 
-section, footer .container {
+section {
   padding: 60px 0;
 }
 
-section p, footer span {
+section p, footer {
   color: white;
 }
 
@@ -31,10 +38,30 @@ nav ul {
   list-style-type: none;
 }
 
+nav ul li a {
+  padding: 15px 0;
+}
+
+nav ul li a:hover {
+  padding: 15px 0;
+  border-bottom: 4px solid white;
+  text-decoration: none;
+}
+
+nav ul li .active {
+  border-bottom: 4px solid white;
+}
+
 .propic {
   border-radius: 100%;
+  width: 100%;
 }
 
 footer .container {
   border-top: 1px solid white;
+  padding: 40px 0;
+}
+
+footer span {
+  font-size: 32px;
 }
