@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Amsterdam';
+    src: url('../fonts/Amsterdam.ttf');
+}
+
+body {
+  background: #101010;
+}
+
+header .jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('../img/la.jpg') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  font-family: 'Amsterdam';
+}
+
+section, footer .container {
+  padding: 60px 0;
+}
+
+section p, footer span {
+  color: white;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.propic {
+  border-radius: 100%;
+}
+
+footer .container {
+  border-top: 1px solid white;
+}
