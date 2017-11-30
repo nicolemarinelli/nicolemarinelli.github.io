@@ -44,7 +44,12 @@ overflow: hidden;
 .lightbox-target img {
 margin: auto;
 position: absolute;
-
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+max-height: 0%;
+max-width: 0%;
 
 box-shadow: 0px 0px 8px rgba(0,0,0,.3);
 box-sizing: border-box;
@@ -148,9 +153,7 @@ left: 10px;
   max-width: 500px;
 }
 
-.cell img {
-  display: block;
-}
+
 
 
 
