@@ -134,7 +134,10 @@ left: 10px;
 
 
 
-
+div.gallery {
+margin:0 auto;
+width: 400px; /*you decide width*/
+}
 
 
 
