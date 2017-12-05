@@ -135,11 +135,8 @@ left: 10px;
 
 
 div.gallery {
-margin:0 auto;
-width: 400px; /*you decide width*/
+margin:40px auto;
 }
-
-
 
 
 
@@ -179,6 +176,7 @@ width: 400px; /*you decide width*/
 @media screen and (min-width: 1000px) {
   .cell {
     width: calc(100% / 3);
+    display:inline-block;
   }
 
 
