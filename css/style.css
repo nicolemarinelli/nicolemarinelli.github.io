@@ -72,3 +72,7 @@ footer .container {
 footer span {
   font-size: 32px;
 }
+
+.pull-right{
+    float: center;
+}
